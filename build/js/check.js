@@ -1,4 +1,4 @@
-/* check */
+
 function getMessage(a, b) {
   if (typeof a === 'boolean') {
     if (a) {
