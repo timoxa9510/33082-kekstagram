@@ -1,4 +1,3 @@
-
 function getMessage(a, b) {
   if (typeof a === 'boolean') {
     if (a) {
@@ -25,6 +24,6 @@ function getMessage(a, b) {
 		for (var i = 0; i < a.length; i++) {
 		square += a[i] * b[i];
 	}
-    return 'Общая площадь артефактов сжатия: ' + square+ ' пикселей'
+    return 'Общая площадь артефактов сжатия: ' + square + ' пикселей';
   }
 }
