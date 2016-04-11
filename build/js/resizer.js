@@ -97,7 +97,6 @@
       this._ctx.setLineDash([15, 10]);
       // Смещение первого штриха от начала линии.
       this._ctx.lineDashOffset = 7;
-	
       // Сохранение состояния канваса.
       // Подробней см. строку 132.
       this._ctx.save();
@@ -111,7 +110,6 @@
       // нужно отрисовать и координаты его верхнего левого угла.
       // Координаты задаются от центра холста.
       this._ctx.drawImage(this._image, displX, displY);
-	  
       var containerX = -this._container.width / 2;
       var containerY = -this._container.height / 2;
       var cropRectStart = this._resizeConstraint.side / 2;
@@ -136,7 +134,7 @@
       this._ctx.fillStyle = '#fff';
       this._ctx.font = '16px Arial';
       this._ctx.textAlign = 'center';
-      this._ctx.fillText(textSize, -8, -cropRectStart - this._ctx.lineWidth * 2);	
+      this._ctx.fillText(textSize, -8, -cropRectStart - this._ctx.lineWidth * 2);
 
       // Отрисовка прямоугольника, обозначающего область изображения после
       // кадрирования. Координаты задаются от центра.
@@ -154,7 +152,7 @@
       // сложные рассчеты для координат прямоугольника, который нужно очистить.
 	  
       this._ctx.restore();
-    },
+      },
 
     /**
      * Включение режима перемещения. Запоминается текущее положение курсора,
