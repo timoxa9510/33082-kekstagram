@@ -1,5 +1,4 @@
 'use strict';
-
 require('./resizer');
 require('./check');
 require('./upload');
